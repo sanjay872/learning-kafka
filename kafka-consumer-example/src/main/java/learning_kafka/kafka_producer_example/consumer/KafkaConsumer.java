@@ -1,6 +1,6 @@
-package learning_kafka.kafka_consumer_example.consumer;
+package learning_kafka.kafka_producer_example.consumer;
 
-import learning_kafka.kafka_consumer_example.entity.Customer;
+import learning_kafka.kafka_producer_example.entity.Customer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.annotation.KafkaListener;

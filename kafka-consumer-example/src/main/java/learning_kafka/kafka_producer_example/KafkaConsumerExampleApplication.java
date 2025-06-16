@@ -1,4 +1,4 @@
-package learning_kafka.kafka_consumer_example;
+package learning_kafka.kafka_producer_example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
