@@ -1,15 +1,15 @@
 server:
   port: 9192
 
-spring:
-  kafka:
-    consumer:
-      bootstrap-servers: localhost:9092
-      group-id: learn-kafka-grp-1
-      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
-      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
-      properties:
-        spring:
-          json:
-            trusted:
-              packages: learning_kafka.kafka_producer_example.entity
+#spring:
+#  kafka:
+#    consumer:
+#      bootstrap-servers: localhost:9092
+#      group-id: learn-kafka-grp-1
+#      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+#      properties:
+#        spring:
+#          json:
+#            trusted:
+#              packages: learning_kafka.kafka_producer_example.entity
