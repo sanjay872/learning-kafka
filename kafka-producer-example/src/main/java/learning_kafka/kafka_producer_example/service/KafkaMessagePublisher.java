@@ -18,7 +18,7 @@ public class KafkaMessagePublisher {
     }
 
     public void publishMessage(String message){
-        CompletableFuture<SendResult<String,Object>> future=template.send("learn-kafka",message);
+        CompletableFuture<SendResult<String,Object>> future=template.send("learn-kafka",3,null,message);
         future.whenComplete((result,ex)->{
             if(ex==null){
                 System.out.println("Send Message=["+message+"] with offset=["+result.getRecordMetadata().offset()+"]");
